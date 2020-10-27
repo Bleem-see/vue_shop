@@ -25,3 +25,8 @@ body,
 .el-pagination {
   margin-top: 15px;
 }
+
+/* 解决级联样式表 表头飞上天的问题 */
+.el-cascader-menu {
+  height: 300px;
+}
