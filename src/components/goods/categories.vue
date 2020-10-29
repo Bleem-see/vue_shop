@@ -267,7 +267,7 @@ export default {
     },
     // 修改
     editCate() {
-    //   // 先验证提交数据的合法性
+      // 先验证提交数据的合法性
       this.$refs.editCateFormRef.validate(async (valid) => {
         if (valid) {
           const { data: res } = await this.$http.put(
